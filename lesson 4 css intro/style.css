@@ -1,0 +1,46 @@
+/* универсальный селектор */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* селектор по тегу */
+h1 {
+    color: red;
+    text-align: center;
+}
+.makers-3 {
+    /* background-color: aqua; */
+    /* background-image: ; */
+    background: red;
+}
+/* по id */
+#google {
+text-decoration: none;
+border: 2px solid green;
+margin: 20px;
+padding: 40px;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px 20px 30px;
+    padding: 30px;
+/* display: none; */
+/* display: inline; */
+/* display: inline-block; */
+/* display: block; */
+}
+.block-size {
+block-size: 40px;
+font-weight: 700;
+border-radius: 20px;
+}
+p {
+font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+.shrift {
+    font-family: 'Roboto', sans-serif;
+}
